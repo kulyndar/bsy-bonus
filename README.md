@@ -2,7 +2,8 @@
 The Stage 5 consists of only one task. You need to code in python a botnet with two parts (bot and controller) that does the following actions. 1) The bot runs on Linux, and it monitors a page in gist.github.com to download orders. 2) It executes those orders and sends back the data to gist.github.com. 3) The controller runs on Linux and can send orders to gist.github.com and receive the data back from several bots. The minimum orders are: list files in a folder, copy a file, execute a command in the bot from its operating system (e.g. /usr/bin/ps)”
 
 ## Instalation
-Python 3.6+ is required
+Python 3.6+ is required.
+
 Pip is required
 
 1. Intall dependencies using ```pip install -r requirements.txt```
